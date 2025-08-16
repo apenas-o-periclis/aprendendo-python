@@ -1,0 +1,7 @@
+nomecomp = str(input('digitte seu nome completo: ')).strip()
+nomes = nomecomp.split()
+print(f'o seu nome em minusculo: {nomecomp.lower()}')
+print(f'seu nome em maiuculos: {nomecomp.upper()}')
+print(f'seu nome tem: {nomecomp.__len__() - nomecomp.count(' ')}')
+#print(f'seu primeiro nome tem: {nomecomp.find(' ')}')
+print(f'seu primeiro nome : {nomes[0]}, e ele tem: {len(nomes[0])}')
