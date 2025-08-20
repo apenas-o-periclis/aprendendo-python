@@ -1,6 +1,6 @@
 # aprendendo-python
 Este repositório documenta minha trajetória de aprendizado em Python, desde os conceitos fundamentais até a realização de projetos mais complexos.
-
+Atualmente fazendo mundo 2 do Curso em video do Gustavo Guanabara.
 
 Metas:
 
