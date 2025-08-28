@@ -6,7 +6,7 @@ cont = 0
 while True:
     num = int(input('Escolha um número: '))
     while num > 10:
-        print(f'Você realmente tem {num} dedos?' + emojize('🤣'))
+        print(f'Você realmente tem {num} dedos? + {emojize('🤣')}')
         num = int(input('Escolha um número: '))
     comp_num = randint(1,10)
     pi = str(input('Par ou Ímpar: [P/I]')).strip().lower()[0]
@@ -31,4 +31,5 @@ while True:
         print(f'Voce perdeu, eu escolhi o número {comp_num} e {comp_pi}, a soma foi {comp_num + num}')
         break
 print('Fim de jogo.')
+
 print(f'Você venceu {cont} vezes consecutivas, parabéns!')
